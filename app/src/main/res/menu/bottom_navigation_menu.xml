@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item
+        android:id="@+id/homeFragment"
+        android:enabled="true"
+        android:title="@string/home"
+        android:icon="@drawable/icon_home"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/walletFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_wallet"
+        android:title="@string/wallet"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:enabled="true"
+        android:icon="@drawable/icon_user"
+        android:title="@string/profile"
+        app:showAsAction="ifRoom" />
+</menu>

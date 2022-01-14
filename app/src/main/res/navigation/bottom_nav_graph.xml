@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.kinwaetest.ui.bottomNavigation.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/walletFragment"
+        android:name="com.example.kinwaetest.ui.bottomNavigation.wallet.WalletFragment"
+        android:label="fragment_wallet"
+        tools:layout="@layout/fragment_wallet" >
+        <action
+            android:id="@+id/action_walletFragment_to_walletTransactionsFragment"
+            app:destination="@id/walletTransactionsFragment" />
+        <action
+            android:id="@+id/action_walletFragment_to_walletTransactionDetailsFragment"
+            app:destination="@id/walletTransactionDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.kinwaetest.ui.bottomNavigation.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/walletTransactionsFragment"
+        android:name="com.example.kinwaetest.ui.bottomNavigation.wallet.WalletTransactionsFragment"
+        android:label="WalletTransactionsFragment"
+        tools:layout="@layout/fragment_wallet_transactions">
+        <action
+            android:id="@+id/action_walletTransactionsFragment_to_walletTransactionDetailsFragment"
+            app:destination="@id/walletTransactionDetailsFragment" />
+        <action
+            android:id="@+id/action_walletTransactionsFragment_to_walletFragment"
+            app:destination="@id/walletFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/walletTransactionDetailsFragment"
+        android:name="com.example.kinwaetest.ui.auth.LoginFragment"
+        android:label="fragment_wallet_transaction_details"
+        tools:layout="@layout/fragment_wallet_transaction_details" >
+        <action
+            android:id="@+id/action_walletTransactionDetailsFragment_to_walletTransactionsFragment"
+            app:destination="@id/walletTransactionsFragment" />
+        <argument
+            android:name="transactionClicked"
+            app:argType="com.example.kinwaetest.domain.model.wallet.Transaction" />
+
+    </fragment>
+</navigation>

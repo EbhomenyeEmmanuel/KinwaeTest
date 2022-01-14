@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">KinwaeTest</string>
+    <string name="onboarding_intro_description">Let our quick loan give you a peace of mind any day any time</string>
+    <string name="onboarding_title_intro1">Freedom Flexibility</string>
+    <string name="onboarding_title_intro2">Need Quick Funds ?</string>
+    <string name="onboarding_title_intro3">Too Many Bills to Pay</string>
+
+    <string name="create_account">Create account</string>
+    <string name="create_an_account">Create an account</string>
+
+
+    <!-- Strings related to login -->
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="full_name">Your Full Name</string>
+
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="invalid_phone_number">Not a valid phone number</string>
+    <string name="invalid_email">Not a valid email</string>
+
+    <string name="login_into_your_account">Login into your account</string>
+
+    <string name="login_failed">Login failed</string>
+    <string name="set_up_account">Setup Account</string>
+
+    <string name="already_have_an_account">Already have an account?</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot Password ?</string>
+
+
+    <string name="to_continue">To continue we would need you to create an account with your email address and phone number.</string>
+    <string name="by_clicking"> By clicking Join Acello, you are agreeing to the </string>
+    <string name="terms_of_use"><u>Terms of Use</u></string>
+    <string name="and_the">and the</string>
+    <string name="privacy_policy"><u>Privacy Policy</u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="wallet">Wallet</string>
+    <string name="fund_wallet">Fund Wallet</string>
+    <string name="loan">Loan</string>
+    <string name="transactions">Transactions</string>
+    <string name="view_all">View all</string>
+    <string name="please_wait">Please wait</string>
+    <string name="transaction_details">Transaction Details</string>
+    <string name="transacted_on">Transacted On</string>
+    <string name="narration">Narration</string>
+    <string name="transaction_reference">Transaction Reference</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#167D7F</color>
+
+    <color name="primary_color_variant">#167D7F</color>
+
+    <color name="secondary_color">#DDFFE7</color>
+    <color name="secondary_color_variant">#DDFFE7</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FFFF1100</color>
+
+
+    <color name="tab_indicator_light">@color/secondary_color</color>
+    <color name="tab_indicator_dark">@color/primary_color</color>
+    <color name="grey_colour">#f5f5f5</color>
+
+</resources>
